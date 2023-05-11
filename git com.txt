@@ -1,0 +1,82 @@
+
+GIT GLOBAL/SYSTEM/LOCAL
+git config --global user.name "User_Name" 
+git config --global user.email "your_email@example.com"
+$ git config --list //to check user name& MAIL
+$ git config --list --show-origin//
+$ git --help status(name of the command)
+$ git config --global core.editor gedit // to create editor
+git config --global --unset core.editor// to remove editor config
+$ git config --global init.defaultBranch main// to change the default branch name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+open git hub open branch from the main
+git clone path url- to clone the code from the git
+git branch -a /to check in which branch we are in
+git pull origin main(working branch) /to take the latest code from the main branch
+git status / to see changed files
+git stash/ for stashing changes 
+git fetch/ to pull new branches created in git hub repository to local repositary
+git checkout branch name/ to switch to feature branch 
+git stash pop / to get stashed changes 
+git add file path/ before commiting we need to add files for this adding purpose we use git add
+git commit -m  "commit message for your changes"
+after this changes are pushed to in your local 
+git pull origin main(base branch)/ to sink your feature branch with main branch
+git push to push your local changes to git hub - after that we need to raise pull request & add reviewers to the list
+  
+before raising pull request we should check changed files if any unwanted changes are present we need to re commit and push
+
+ 
