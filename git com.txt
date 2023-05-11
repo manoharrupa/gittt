@@ -1,13 +1,48 @@
+git cloning/change branch name 
+
+Using already existing repo
+
+clone repository to different directory
 
 GIT GLOBAL/SYSTEM/LOCAL
 git config --global user.name "User_Name" 
 git config --global user.email "your_email@example.com"
+$ git branch // to get the name of the repository we are working
+$ git add *(.)// to add every changes 
+$ git add name of the file // to add perticular file
+$ git status // to get to know the files added after the commit
+$ git status -s // only changes 
+$ git commit -m"write what ever you want"
+$ ls .git// get the header,index
+$ cat (start.txt)file name // details of the file
+ls -a// .git contain then the repository created
+cd //change directory
+pwd // present working directory
+cd directory //it will move the current directory
 $ git config --list //to check user name& MAIL
 $ git config --list --show-origin//
 $ git --help status(name of the command)
 $ git config --global core.editor gedit // to create editor
-git config --global --unset core.editor// to remove editor config
+$git config --global --unset core.editor// to remove editor config
+$git config --global/system/local --unset (name)// to remove ==> local highest global next last system
+$ git (name of the command) --help // to know about the coomand
+$ git init //Initialized empty Git repository
 $ git config --global init.defaultBranch main// to change the default branch name
+$ git commit// to apply changes 
+$ vi .gitignore enter ==write the files you don't need to shows/ you remove the files that are added to ignore =
+$ git restore --staged name // to revert back the tracked file to untracked
+$ cat .gitignore // to know the filed that are ignored
+$ git diff // get all the changes  done in the files after commit to latest untracked files
+$ git diff (file name)// only the required changed on the file
+(commit had id we used with git diff commit first 6numbers and another commit (old ) 6 digits we get )
+$ git log // get the commits done on the repository
+$ git commit -a -m"matter"// to add files to staged & commit in one go(aft original onced staged only it work) 
+ 
+ 
+
+
+
+
 
 
 
