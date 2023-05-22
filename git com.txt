@@ -1,4 +1,4 @@
-git cloning/change branch name 
+git cloning/change branch name /
 
 Using already existing repo
 
@@ -36,7 +36,48 @@ $ git diff // get all the changes  done in the files after commit to latest untr
 $ git diff (file name)// only the required changed on the file
 (commit had id we used with git diff commit first 6numbers and another commit (old ) 6 digits we get )
 $ git log // get the commits done on the repository
-$ git commit -a -m"matter"// to add files to staged & commit in one go(aft original onced staged only it work) 
+$ git commit -a -m"matter"// to add files to staged & commit in one go(aft original onced staged only it work)
+$ git restore --staged * // we can go back to the staged to the working directory
+$ rm file name // remove it will go back to the staged
+$ git log -p -2//(patch ) show the difference between the 2 commits
+$ git log --oneline//
+$ git log --oneline --graph // in one line
+$ git log --since=20.hours(week/day)// to get required time and date
+$ git log --pretty=format:"%h - %an, %ar : %s"// give the all commits done latest to the old
+$ git branch// to get the branch details
+$ git log --oneline (branch name )// to get the commits done on that branch
+===UNDOING CHANGES====
+$ git commit --amend -a -m  // ( it can modified the top most commit - did not show the log details of the last before one)-it is only done to the commits not push to the server
+$ git reset --soft HEAD~1//( it will be change the commit to the last before one header will change)
+$ git reset --hard HEAD~1//( it will back  history of log & data change)
+$ git reset--$ git reset head one.txt // stagged to back to working directory
+$ git restore --staged one.txt(file name)//back to working directory
+$ git restore one.txt==$ git checkout one.txt (name of the file name)//untraced to delete
+$ git tag -a "name version" 7bf8969(log)// to create annotated tag
+$ git show 7bf8969(name of the tag)// to show the details of everything include user name and mail
+$ git tag // show the tag present are not
+$ git tag "v1.0.3" 0b61733(log)==to create light weighted tag
+$ git tag -l v1.0 * // to give the similar name tags
+$ git tag --d 7bf8969 // deleting the tag
+$ git checkout -b  name of the branch name of the tag // create a tag to the branch
+$ git config --global alias.ci(short cut) commit(command)// create short cut for commands like:commit/checkout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
  
  
 
